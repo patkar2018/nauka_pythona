@@ -10,3 +10,7 @@ for z in zwierzeta:
 
 for idx in range (len (zwierzeta) ):
     print ("idx: " + str(idx) + " : " + zwierzeta[idx])
+
+z = ','.join(zwierzeta)
+
+print(z)
